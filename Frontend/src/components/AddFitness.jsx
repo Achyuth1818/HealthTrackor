@@ -31,7 +31,7 @@ const AddFitness = () => {
       const userId = localStorage.getItem("userId");
       const dataToSubmit = { ...formData, userId };
 
-      await axios.post("http://localhost:8080/api/fitness", dataToSubmit, {
+      await axios.post("https://healthtrackor.onrender.com/api/fitness", dataToSubmit, {
         headers: { "x-token": token },
       });
       setSuccess("Fitness data added successfully!");
