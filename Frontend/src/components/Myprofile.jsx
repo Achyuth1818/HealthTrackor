@@ -83,7 +83,7 @@ const MyProfile = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./public/2441768.webp')",
+          backgroundImage: "url('/2441768.webp')",
           filter: "blur(8px)",
           zIndex: -1,
         }}
