@@ -21,7 +21,7 @@ const FitnessTracker = () => {
   const fetchFitnessData = async () => {
     try {
       const token = localStorage.getItem("x-token");
-      const response = await axios.get("http://localhost:8080/api/fitness", {
+      const response = await axios.get("https://healthtrackor.onrender.com/api/fitness", {
         headers: { "x-token": token },
       });
 
@@ -56,7 +56,7 @@ const FitnessTracker = () => {
     try {
       const token = localStorage.getItem("x-token");
       const response = await axios.put(
-        `http://localhost:8080/api/fitness/${currentData._id}`,
+        `https://healthtrackor.onrender.com/api/fitness/${currentData._id}`,
         currentData,
         {
           headers: { "x-token": token },
@@ -80,7 +80,7 @@ const FitnessTracker = () => {
     if (window.confirm("Are you sure you want to delete this entry?")) {
       try {
         const token = localStorage.getItem("x-token");
-        await axios.delete(`http://localhost:8080/api/fitness/${id}`, {
+        await axios.delete(`https://healthtrackor.onrender.com/api/fitness/${id}`, {
           headers: { "x-token": token },
         });
         alert("Fitness data deleted successfully!");
