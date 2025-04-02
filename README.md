@@ -14,12 +14,10 @@ Make sure you have the following installed on your machine:
 To clone the repository, open your terminal and run the following command:
 
 ```bash
-git clone https://github.com/Achyuth1818/HealthTrackingApplication.git
-
 
 cloning the repository 
-git clone https://github.com/Achyuth1818/HealthTrackingApplication.git
-cd HealthTrackTrackingApplication
+git clone https://github.com/Achyuth1818/HealthTrackor.git
+cd HealthTrackor
 npm i
 cd Backend
 npm i
