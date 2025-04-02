@@ -34,3 +34,13 @@ app.use("/api", fitnessRouter);
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+
+
+
+
+
+// "scripts": {
+//     "start": "node index.js",
+//     "dev": "npx nodemon index.js"
+//   },
