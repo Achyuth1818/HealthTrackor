@@ -39,7 +39,7 @@ const Login = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./public/624111.webp')",
+          backgroundImage: "url('/624111.webp')",
           filter: "blur(8px)",
         }}
       />
