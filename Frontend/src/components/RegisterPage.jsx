@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Register from "./register";
+import Register from "./Register";
 
 const RegisterPage = () => {
   return (
