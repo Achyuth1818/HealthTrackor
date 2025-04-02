@@ -76,7 +76,7 @@ const ViewProfile = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('./public/health-medical-healthcare-health.jpg')",
+            "url('/health-medical-healthcare-health.jpg')",
           filter: "blur(6px)",
         }}
       />
