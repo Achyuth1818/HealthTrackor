@@ -40,7 +40,7 @@ const Dashboard = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./public/2441768.webp')", // Set your full-screen background image path here
+          backgroundImage: "url('/2441768.webp')", // Set your full-screen background image path here
           filter: "blur(4px)", // Apply blur effect to the background
         }}
       >
