@@ -61,7 +61,7 @@ const AddFitness = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./public/624111.webp')", // Change to your desired image path
+          backgroundImage: "url('/624111.webp')", // Change to your desired image path
           filter: "blur(8px)",
           zIndex: -1,
         }}
