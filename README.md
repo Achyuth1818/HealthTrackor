@@ -19,7 +19,7 @@ git clone https://github.com/Achyuth1818/HealthTrackingApplication.git
 
 cloning the repository 
 git clone https://github.com/Achyuth1818/HealthTrackingApplication.git
-cd HealthTrack
+cd HealthTrackTrackingApplication
 npm i
 cd Backend
 npm i
