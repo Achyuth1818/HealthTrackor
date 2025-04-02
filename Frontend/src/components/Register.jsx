@@ -25,7 +25,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/register",
+        "https://healthtrackor.onrender.com/api/register",
         formData
       );
       // Store the token in localStorage
