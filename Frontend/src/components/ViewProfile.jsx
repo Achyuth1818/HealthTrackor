@@ -17,7 +17,7 @@ const ViewProfile = () => {
         }
 
         const response = await axios.get(
-          "http://localhost:8080/api/myprofile",
+          "https://healthtrackor.onrender.com/api/myprofile",
           {
             headers: { "x-token": token },
           }
