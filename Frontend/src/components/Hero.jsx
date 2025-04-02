@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <div
       className="min-h-screen bg-cover bg-center text-white flex items-center justify-center"
-      style={{ backgroundImage: "url('./public/U0rczZ.webp')" }} // Keep your health tracker image path here
+      style={{ backgroundImage: "url('/U0rczZ.webp')" }} // Keep your health tracker image path here
     >
       <div className="bg-black bg-opacity-50 p-10 rounded-lg sm:mt-20 text-center md:my-20">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
