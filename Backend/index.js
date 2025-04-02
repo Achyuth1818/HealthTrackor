@@ -40,7 +40,3 @@ app.listen(PORT, () => {
 
 
 
-// "scripts": {
-//     "start": "node index.js",
-//     "dev": "npx nodemon index.js"
-//   },
